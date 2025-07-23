@@ -20,7 +20,7 @@
 
 <h3 align="left">🌐 Connect with me</h3>
 <p align="left">
-  <a href="https://www.linkedin.com/in/semihsanli/" target="_blank">
+  <a href="https://www.linkedin.com/in/semih-%C5%9Fanl%C4%B1/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30"/>
   </a>
 </p>
