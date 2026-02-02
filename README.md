@@ -190,37 +190,55 @@ public class SemihSanli : IDeveloper
 ---
 
 <!-- GITHUB STATS -->
-<!-- GITHUB STATS -->
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ber/giphy.gif" width="30"> GitHub İstatistiklerim
 
 <div align="center">
 
-<!-- Stats Card - Ana Instance -->
-<a href="https://github.com/SemihSanli">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SemihSanli&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&icon_color=A960FF&title_color=A960FF&text_color=FFFFFF&include_all_commits=true&count_private=true&cache_seconds=1800"/>
-</a>
+<!-- Main Stats Badges -->
+<p>
+  <img src="https://img.shields.io/badge/Total_Repos-26+-1a1b27?style=for-the-badge&logo=github&logoColor=white&labelColor=A960FF"/>
+  <img src="https://img.shields.io/badge/Followers-16-1a1b27?style=for-the-badge&logo=github&logoColor=white&labelColor=FF6B6B"/>
+  <img src="https://img.shields.io/badge/Following-15-1a1b27?style=for-the-badge&logo=github&logoColor=white&labelColor=4CAF50"/>
+</p>
 
-<!-- Streak Stats - Alternatif Instance -->
-<a href="https://github.com/SemihSanli">
-  <img height="180em" src="https://streak-stats.demolab.com?user=SemihSanli&theme=tokyonight&hide_border=true&background=1A1B27&ring=A960FF&fire=FF6B6B&currStreakLabel=A960FF&sideLabels=A960FF"/>
-</a>
-
-<br>
-
-<!-- Languages Card -->
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SemihSanli&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=A960FF&text_color=FFFFFF&langs_count=8&cache_seconds=1800"/>
+<!-- Tech Stats -->
+<p>
+  <img src="https://img.shields.io/badge/Primary_Language-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framework-.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Focus-Backend_Development-0078D7?style=for-the-badge&logo=visualstudio&logoColor=white"/>
+</p>
 
 </div>
 
 ---
 
-<!-- TROPHIES - Alternatif Instance -->
+### 🏆 Başarılarım & Deneyimlerim
+
 <div align="center">
-  
-### 🏆 GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=SemihSanli&theme=tokyonight&no-frame=true&no-bg=false&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C"/>
-
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🚀-512BD4?style=for-the-badge" width="60"/>
+<br><b>26+ Proje</b>
+<br><sub>GitHub'da</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🤖-412991?style=for-the-badge" width="60"/>
+<br><b>AI Entegrasyonu</b>
+<br><sub>OpenAI, ML.NET</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🏗️-FF6B6B?style=for-the-badge" width="60"/>
+<br><b>Clean Architecture</b>
+<br><sub>CQRS, MediatR</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🔐-4CAF50?style=for-the-badge" width="60"/>
+<br><b>Güvenlik</b>
+<br><sub>JWT, Identity</sub>
+</td>
+</tr>
+</table>
 </div>
 
 <!-- CONTRIBUTION GRAPH -->
