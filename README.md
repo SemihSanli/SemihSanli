@@ -23,28 +23,33 @@
 
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-csharp
+```csharp
 public class SemihSanli : IDeveloper
 {
-public string Name => "Semih Şanlı";
-public string Title => ".NET Developer";
-public string Location => "İzmir, Türkiye 🇹🇷";
-public string[] Skills => new[]
-{
-"C#", ".NET 8", "ASP.NET Core",
-"Entity Framework", "CQRS", "Clean Architecture"
-};
-public string[] CurrentlyLearning => new[]
-{
-"Docker 🐳", "Redis", "RabbitMQ",
-"Microservices", "Kubernetes"
-};
-public string[] AIExperience => new[]
-{
-"OpenAI GPT-4", "ML.NET", "HuggingFace"
-};
-public string FunFact => "Müzik dinleyerek daha iyi kod yazarım 🎧";
+    public string Name => "Semih Şanlı";
+    public string Title => ".NET Developer";
+    public string Location => "İzmir, Türkiye 🇹🇷";
+    
+    public string[] Skills => new[]
+    {
+        "C#", ".NET 8", "ASP.NET Core",
+        "Entity Framework", "CQRS", "Clean Architecture"
+    };
+    
+    public string[] CurrentlyLearning => new[]
+    {
+        "Docker 🐳", "Redis", "RabbitMQ",
+        "Microservices", "Kubernetes"
+    };
+    
+    public string[] AIExperience => new[]
+    {
+        "OpenAI GPT-4", "ML.NET", "HuggingFace"
+    };
+    
+    public string FunFact => "Müzik dinleyerek daha iyi kod yazarım 🎧";
 }
+```
 
 <br>
 
@@ -100,76 +105,123 @@ public string FunFact => "Müzik dinleyerek daha iyi kod yazarım 🎧";
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Öne Çıkan Projeler
 
 <div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/SemihSanli/BepopJWTMusicApp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SemihSanli&repo=BepopJWTMusicApp&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
-</a>
-<a href="https://github.com/SemihSanli/RentACar">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SemihSanli&repo=RentACar&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
-</a>
-<a href="https://github.com/SemihSanli/Ogani-PostgreML.Net">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SemihSanli&repo=Ogani-PostgreML.Net&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
-</a>
-<a href="https://github.com/SemihSanli/HotelierAPI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SemihSanli&repo=HotelierAPI&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
-</a>
+### 🎵 [BepopJWTMusicApp](https://github.com/SemihSanli/BepopJWTMusicApp)
+**Güvenli Müzik Streaming Platformu**
+
+<p align="center">
+<img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/ML.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+</p>
+
+- 🔐 JWT ile RBAC güvenlik sistemi
+- 🤖 GPT-4o destekli "BepopDJ" asistanı
+- 💳 Iyzipay ile abonelik sistemi
+- ☁️ Cloudinary medya yönetimi
+
+</td>
+<td width="50%" valign="top">
+
+### 🚗 [RentACarAI](https://github.com/SemihSanli/RentACar)
+**AI Destekli Araç Kiralama**
+
+<p align="center">
+<img src="https://img.shields.io/badge/Onion_Architecture-512BD4?style=flat-square"/>
+<img src="https://img.shields.io/badge/CQRS-FF6B6B?style=flat-square"/>
+<img src="https://img.shields.io/badge/MediatR-9C27B0?style=flat-square"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+</p>
+
+- 🧅 Onion Architecture yapısı
+- 🔄 CQRS ile %40 performans artışı
+- 🤖 GPT-4 ile akıllı araç önerisi
+- 📧 MailKit ile otomatik bildirimler
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 [OganiPostgreML.NET](https://github.com/SemihSanli/Ogani-PostgreML.Net)
+**Satış Tahmin Sistemi**
+
+<p align="center">
+<img src="https://img.shields.io/badge/ML.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+</p>
+
+- 📈 500K+ satış verisi analizi
+- 🎯 %85 doğrulukla tahminleme
+- 📊 15+ KPI dashboard
+
+</td>
+<td width="50%" valign="top">
+
+### 🏨 [HotelierAPI](https://github.com/SemihSanli/HotelierAPI)
+**Enterprise RESTful API**
+
+<p align="center">
+<img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/Identity-512BD4?style=flat-square"/>
+<img src="https://img.shields.io/badge/RapidAPI-0055DA?style=flat-square"/>
+</p>
+
+- ⚡ Sub-100ms response time
+- 🔒 3 seviyeli RBAC sistemi
+- 📡 1000+ günlük API çağrısı
+- 📖 Swagger dokümantasyonu
+
+</td>
+</tr>
+</table>
+
+<br>
+
+[![All Repositories](https://img.shields.io/badge/📂_Tüm_Projelerimi_Gör-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SemihSanli?tab=repositories)
 
 </div>
-
-### 🎵 BepopJWTMusicApp - Müzik Streaming Platformu
-> `N-Tier Architecture` `JWT` `OpenAI GPT-4o` `ML.NET` `Iyzipay` `Cloudinary`
-
-<details>
-<summary>📋 Detaylar için tıkla</summary>
-
-- 🔐 JWT Bearer Token ile güvenli kimlik doğrulama
-- 👥 Role-Based Access Control (RBAC) ile yetkilendirme  
-- 🤖 "BepopDJ" - GPT-4o destekli mood-based müzik asistanı
-- 📊 ML.NET ile kullanıcı davranış analizi
-- 💳 Iyzipay Sandbox ile abonelik sistemi
-- ☁️ Cloudinary ile 500+ eşzamanlı medya yönetimi
-
-</details>
-
-### 🚗 RentACarAI - AI Destekli Araç Kiralama
-> `Onion Architecture` `CQRS` `MediatR` `OpenAI GPT-4` `MailKit`
-
-<details>
-<summary>📋 Detaylar için tıkla</summary>
-
-- 🧅 Onion Architecture ile modüler ve test edilebilir yapı
-- 🔄 CQRS pattern ile read/write ayrımı (%40 performans artışı)
-- 🤖 GPT-4 ile akıllı araç önerisi (bütçe & güvenlik bazlı)
-- 📧 100+ günlük otomatik e-posta bildirimi
-- 🗃️ Generic Repository ile 10+ entity yönetimi
-
-</details>
-
 ---
 
+<!-- GITHUB STATS -->
 <!-- GITHUB STATS -->
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ber/giphy.gif" width="30"> GitHub İstatistiklerim
 
 <div align="center">
 
-<!-- Stats Cards Row -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=SemihSanli&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&icon_color=A960FF&title_color=A960FF&text_color=FFFFFF&include_all_commits=true&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=SemihSanli&theme=tokyonight&hide_border=true&background=1A1B27&ring=A960FF&fire=FF6B6B&currStreakLabel=A960FF" />
+<!-- Stats Card - Ana Instance -->
+<a href="https://github.com/SemihSanli">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SemihSanli&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&icon_color=A960FF&title_color=A960FF&text_color=FFFFFF&include_all_commits=true&count_private=true&cache_seconds=1800"/>
+</a>
+
+<!-- Streak Stats - Alternatif Instance -->
+<a href="https://github.com/SemihSanli">
+  <img height="180em" src="https://streak-stats.demolab.com?user=SemihSanli&theme=tokyonight&hide_border=true&background=1A1B27&ring=A960FF&fire=FF6B6B&currStreakLabel=A960FF&sideLabels=A960FF"/>
+</a>
+
+<br>
 
 <!-- Languages Card -->
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SemihSanli&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=A960FF&text_color=FFFFFF&langs_count=8" />
-
-</div>
-
-<!-- Trophies -->
-<div align="center">
-  
-### 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=SemihSanli&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15" />
+<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SemihSanli&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=A960FF&text_color=FFFFFF&langs_count=8&cache_seconds=1800"/>
 
 </div>
 
 ---
+
+<!-- TROPHIES - Alternatif Instance -->
+<div align="center">
+  
+### 🏆 GitHub Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=SemihSanli&theme=tokyonight&no-frame=true&no-bg=false&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C"/>
+
+</div>
 
 <!-- CONTRIBUTION GRAPH -->
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> Katkı Grafiği
